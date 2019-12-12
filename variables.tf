@@ -5,7 +5,7 @@ provider "azurerm" {
 # Resource Group
 variable "ResGroup" {
     type = "string"
-    default = "ddbanz-automation-scripts"
+    default = ""
 }
 
 # Azure Location
@@ -17,7 +17,7 @@ variable "Location" {
 # Resource Tag
 variable "Description" {
     type = "string"
-    default = "DDBANZ_Automation"
+    default = ""
 }
 
 
@@ -30,25 +30,25 @@ variable "Environment" {
 # Automation Account Name
 variable "AutomationAccount" {
     type = "string"
-    default = "ddbanz-automationaccount"
+    default = ""
 }
 
 # Service Principle
 variable "AppName" {
     type = "string"
-    default = "AutomationAccount"
+    default = ""
 }
 
 # Service Principle
 variable "CertPassword" {
     type = "string"
-    default = "C0mplexPassw0rd!"
+    default = ""
 }
 
 # Service Principle
 variable "SubscriptionId" {
     type = "string"
-    default = "2a688836-5806-4ae5-a0f2-ac6b594d1bfb"
+    default = ""
 }
 
 # For Start/Stop Target
